@@ -33,6 +33,19 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
          let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCellSearch
         
         cell.title.text = movies[indexPath.row]
+        
+        // for the description
+//        if let description = descriptions[movies[indexPath.row]] {
+//            cell.movies.text = description
+//        } else {
+//            cell.year.text = ""
+//        }
+
+        // for the image
+//        if let image = UIImage(named: movies[indexPath.row]) {
+//            cell.poster.image = image
+//        }
+        
         return cell
     }
 

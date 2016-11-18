@@ -66,7 +66,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let SecondVC = segue.destination as? SecondViewController {
+//            if let indexPath = self.cell?.indexPathForSelectedRow {
+//                SecondVC.json = self.json?[indexPath!.row]
+//            }
+//        }
+//    }
 }
 
