@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1A1484481DDF2282002A0174 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1484471DDF2282002A0174 /* SecondViewController.swift */; };
 		1A14844A1DDF3579002A0174 /* TableViewCellSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1484491DDF3579002A0174 /* TableViewCellSearch.swift */; };
+		1A14846A1DDF6FFB002A0174 /* movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1484691DDF6FFB002A0174 /* movies.swift */; };
+		1A14846C1DDF8967002A0174 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A14846B1DDF8967002A0174 /* README.md */; };
 		1AC37E181DD9E27E000FA8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC37E171DD9E27E000FA8F9 /* AppDelegate.swift */; };
 		1AC37E1A1DD9E27E000FA8F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC37E191DD9E27E000FA8F9 /* ViewController.swift */; };
 		1AC37E1D1DD9E27E000FA8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC37E1B1DD9E27E000FA8F9 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		1A1484471DDF2282002A0174 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		1A1484491DDF3579002A0174 /* TableViewCellSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellSearch.swift; sourceTree = "<group>"; };
+		1A1484691DDF6FFB002A0174 /* movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movies.swift; sourceTree = "<group>"; };
+		1A14846B1DDF8967002A0174 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		1AC37E141DD9E27E000FA8F9 /* barbaraboeters-pset3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "barbaraboeters-pset3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC37E171DD9E27E000FA8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC37E191DD9E27E000FA8F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				1AC37E171DD9E27E000FA8F9 /* AppDelegate.swift */,
 				1AC37E191DD9E27E000FA8F9 /* ViewController.swift */,
 				1AC37E1B1DD9E27E000FA8F9 /* Main.storyboard */,
+				1A1484691DDF6FFB002A0174 /* movies.swift */,
 				1A1484491DDF3579002A0174 /* TableViewCellSearch.swift */,
+				1A14846B1DDF8967002A0174 /* README.md */,
 				1AC37E1E1DD9E27E000FA8F9 /* Assets.xcassets */,
 				1AC37E201DD9E27E000FA8F9 /* LaunchScreen.storyboard */,
 				1AC37E231DD9E27E000FA8F9 /* Info.plist */,
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A14846C1DDF8967002A0174 /* README.md in Sources */,
 				1A1484481DDF2282002A0174 /* SecondViewController.swift in Sources */,
+				1A14846A1DDF6FFB002A0174 /* movies.swift in Sources */,
 				1A14844A1DDF3579002A0174 /* TableViewCellSearch.swift in Sources */,
 				1AC37E1A1DD9E27E000FA8F9 /* ViewController.swift in Sources */,
 				1AC37E181DD9E27E000FA8F9 /* AppDelegate.swift in Sources */,

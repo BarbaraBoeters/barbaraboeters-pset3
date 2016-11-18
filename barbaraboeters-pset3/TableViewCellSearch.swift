@@ -15,7 +15,6 @@ class TableViewCellSearch: UITableViewCell {
     @IBOutlet weak var year: UILabel!
     @IBOutlet weak var rating: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
